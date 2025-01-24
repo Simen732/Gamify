@@ -7,5 +7,7 @@ router.get("/", tagController.getAllTags)
 router.post("/", tagController.createTag)
 
 router.get("/:id", tagController.getTag)
-router.get("/:id", tagController.updateTag)
-router.get("/:id", tagController.deletTag)
+router.put("/:id", tagController.updateTag)
+router.delete("/:id", tagController.deleteTag)
+
+module.exports = router;
