@@ -23,4 +23,4 @@ const reviewSchema = new Schema({
 
 const review = model("review", reviewSchema);
 
-module.exports = Tag
+module.exports = review
